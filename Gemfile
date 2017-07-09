@@ -22,14 +22,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'pg'
 
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'puma'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,12 +37,8 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 end
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor'
 end
