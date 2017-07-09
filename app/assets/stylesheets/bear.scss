@@ -1,0 +1,184 @@
+$bear-color: #fff;
+$size: 70vmin;
+
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.bear-cub {
+  vertical-align: middle;
+  width: $size;
+  height: $size;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+
+  .body {
+    position: absolute;
+    background: radial-gradient($bear-color 30%, darken($bear-color, 12%) 100%);
+    border-radius: 30% 30% 60% 60% / 70% 70% 50% 50%;
+    width: 50%;
+    height: 40%;
+    top: 22%;
+    left: 25%;
+
+
+    .leg {
+      position: absolute;
+      background: radial-gradient($bear-color 30%, darken($bear-color, 5%) 100%);
+      border-radius: 40% 40% 30% 30%;
+      width: 30%;
+      height: 120%;
+      top: 20%;
+    }
+
+    .leg-left {
+      left: 5%;
+      transform: rotatez(5deg);
+    }
+
+    .leg-right {
+      right: 5%;
+      transform: rotatez(-5deg);
+    }
+
+    .leg-left-behind {
+      z-index: -2;
+      left: 0%;
+      height: 100%;
+      transform: rotatez(15deg);
+      background: radial-gradient($bear-color 30%, darken($bear-color, 25%) 100%);
+    }
+
+    .leg-right-behind {
+      z-index: -2;
+      right: 0%;
+      height: 100%;
+      transform: rotatez(-15deg);
+      background: radial-gradient($bear-color 30%, darken($bear-color, 25%) 100%);
+    }
+  }
+
+  .head {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 30%;
+    background: radial-gradient($bear-color 30%, darken($bear-color, 5%) 100%);
+    border-radius: 50%;
+
+
+    .nose {
+      position: absolute;
+      width: 25%;
+      height: 17%;
+      background-color: black;
+      border-radius: 100%;
+      top: 55%;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+
+    .eye {
+      position: absolute;
+      background: #eee;
+      width: 10%;
+      height: 10%;
+      border-radius: 100%;
+      animation: eyes 5s infinite;
+
+      &::before {
+        content: '';
+        display: block;
+        position: relative;
+        top: 15%;
+        left: 5%;
+        background: black;
+        width: 80%;
+        height: 80%;
+        border-radius: 100%;
+      }
+    }
+
+    .eye-left {
+      top: 40%;
+      left: 27%;
+      animation-delay: 0.05s;
+    }
+
+    .eye-right {
+      top: 40%;
+      right: 27%;
+    }
+
+    .ear {
+      position: absolute;
+      background: $bear-color;
+      width: 30%;
+      height: 30%;
+      border-radius: 100%;
+      z-index: -1;
+
+      &::before {
+        content: '';
+        display: block;
+        position: relative;
+        top: 30%;
+        left: 30%;
+        background: rgba(0,0,0,0.1);
+        width: 40%;
+        height: 40%;
+        border-radius: 100%;
+      }
+    }
+
+    .ear-left {
+      left: 0;
+      top: 0;
+    }
+
+    .ear-right {
+      right: 0;
+      top: 0;
+      transform-origin: 50% 100%;
+      animation: ears 11s infinite;
+    }
+
+    .mouth {
+      box-sizing: border-box;
+      position: absolute;
+      width: 25%;
+      height: 5%;
+      border-radius: #{$size / 70} #{$size / 70} 50% 50%;
+      background: rgb(150,0,0);
+      top: 78%;
+      left: 50%;
+      animation: mouth 7s infinite;
+      transform-origin: 50% 20%;
+    }
+  }
+}
+
+@keyframes eyes {
+    0%, 90% { transform: scaley(1); }
+    95% { transform: scaley(0.05); }
+}
+
+@keyframes mouth {
+    0%, 100% { transform: translatex(-50%) scaley(2) scalex(1.1); }
+    20%, 80% { transform: translatex(-50%) scaley(1) scalex(1); }
+}
+
+@keyframes ears {
+  0%, 48%, 52%, 100% { transform: rotatex(0); }
+  50% { transform: rotatex(30deg); }
+}
+
+@keyframes ice {
+  0%, 100% { transform: translatex(-50%) rotate(2deg) }
+  50% { transform: translatex(-50%) rotate(-2deg) }
+}
