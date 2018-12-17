@@ -1,2 +1,17 @@
 .container
-  %p Welcome to my Rails app !
+  %div.header.row.justify-content-center
+    %div.col-11.col-sm-8.col-md-9
+      %h1 Chiew Carol
+      %div.social.row.justify-content-center
+        %a.social-link.col-2{href: 'https://fb.me/kyaroru.cc'}
+          = image_tag("facebook.jpg", alt: "facebook", class: "social-icon")
+        %a.social-link.col-2{href: 'https://www.instagram.com/kyaroru.cc'}
+          = image_tag("instagram.jpg", alt: "instagram", class: "social-icon")
+        %a.social-link.col-2{href: 'https://www.linkedin.com/in/kyaroru'}
+          = image_tag("linkedin.jpg", alt: "linkedin", class: "social-icon")
+        %a.social-link.col-2{href: 'skype:live:kyaroru_1?chat'}
+          = image_tag("skype.jpg", alt: "skype", class: "social-icon")
+        %a.social-link.col-2{href: 'https://t.me/kyaro36'}
+          = image_tag("telegram.jpg", alt: "telegram", class: "social-icon")
+    %div.profile.col-10.col-sm-4.col-md-3
+      = image_tag("carol.jpg", alt: "It's me", class: "profile-img")
