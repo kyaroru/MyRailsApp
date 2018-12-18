@@ -1,4 +1,41 @@
 @import "bootstrap";
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+  background-color: #333;
+  height: 100vh;
+ }
+ body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
+  .navbar {
+    z-index: 10; // to appear on top of content
+  }
+
+  .main {
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: -56px; //hacky code to compensate 100vh due to navbar height
+    padding-top: 56px; //hacky code to compensate cutoff margin-top
+  }
+ }
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
 @import "cover.scss";
 @import "bear.scss";
 @import "home.scss";

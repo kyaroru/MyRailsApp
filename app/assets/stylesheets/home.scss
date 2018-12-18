@@ -14,26 +14,32 @@ $break-x-large: 1200px;
     font-size: 3rem;
 
     @media screen and (min-width: $break-medium) {
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
     @media screen and (min-width: $break-large) {
-      font-size: 7rem;
-    }
-
-    @media screen and (min-width: $break-x-large) {
-      font-size: 8rem;
+      font-size: 5rem;
     }
   }
 
   .social {
     margin: 1.5rem 0;
 
-    @media screen and (min-width: $break-medium) {
+    @media screen and (min-width: $break-x-large) {
       margin: 2.5rem 0;
     }
 
     .social-link {
+      width: 2rem;
+      margin: 0px 10px;
+
+      @media screen and (min-width: $break-medium) {
+        width: 3rem;
+      }
+
+      @media screen and (min-width: $break-large) {
+        width: 4rem;
+      }
 
       .social-icon {
         max-width: 100%;
