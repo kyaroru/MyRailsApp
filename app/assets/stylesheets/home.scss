@@ -5,11 +5,10 @@ $break-large: 992px;
 $break-x-large: 1200px;
 
 .header {
-  margin-top: 1rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  border-top: 3px white dashed;
-  border-bottom: 3px white dashed;
+  border-top: 1px white dashed;
+  border-bottom: 1px white dashed;
 
   h1 {
     font-size: 3rem;
