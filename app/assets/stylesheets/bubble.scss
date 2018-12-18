@@ -1,0 +1,99 @@
+
+$break-small: 337px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-x-large: 1200px;
+
+.talk {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+}
+
+p.bubble
+{
+  margin: 0px auto;
+	position: relative;
+	width: 13rem;
+	height: 6rem;
+	text-align: center;
+	line-height: 20px;
+	background-color: #fff;
+  border: 6px solid dodgerblue;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-box-shadow: 2px 2px 4px #321;
+	-moz-box-shadow: 2px 2px 4px #321;
+  box-shadow: 2px 2px 4px #321;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #333;
+  padding: 10px;
+}
+
+p.thought
+{
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+}
+
+p.bubble:before, p.bubble:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+p.speech:before
+{
+  right: 36px;
+  top: 88px;
+  border: 24px solid;
+  border-color: dodgerblue transparent transparent dodgerblue;
+}
+
+p.speech:after
+{
+  right: 44px;
+  top: 87px;
+  border: 17px solid;
+  border-color: #fff transparent transparent #fff;
+}
+
+p.thought:before, p.thought:after
+{
+	left: 3px;
+	top: 70px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 4px solid dodgerblue;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+p.thought:after
+{
+	width: 20px;
+	height: 20px;
+	left: 23px;
+	top: 100px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+  border-radius: 18px;
+
+  @media screen and (min-width: $break-medium) {
+    left: 3px;
+  }
+}
