@@ -1,6 +1,7 @@
 .container.main
+  %hr
   %div.header.row.justify-content-center
-    %div.col-11.col-sm-8.col-md-9
+    %div.col-11.col-sm-10.col-md-9
       %h1 Chiew Carol
       %h7 I code for a living & brought my bear
       = image_tag("bear.png", alt: "bear", class: "inline-icon")
@@ -23,8 +24,9 @@
       %div.email
         %a{href: 'mailto:kyaroru@outlook.com'}
           %h5 kyaroru@outlook.com
-    %div.profile.col-10.col-sm-4.col-md-3
+    %div.profile.col-10.col-sm-7.col-md-3
       = image_tag("carol.jpg", alt: "It's me", class: "profile-img")
+  %hr
   %div.content
     %div.timeline-title#experience Experience
     %div.timeline-container
@@ -162,3 +164,6 @@
         %label Bahasa Malaysia
         %li
           %span.progress.progressbar.eighty
+  %hr
+  %div.footer
+    © 2018 Chiew Carol
