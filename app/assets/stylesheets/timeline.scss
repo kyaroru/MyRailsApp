@@ -149,7 +149,7 @@
   pointer-events: none;
 }
 
-.time-wrapper {
+.tag-wrapper {
   position: absolute;
   top: -28px;
   margin-top: 5px;
@@ -158,20 +158,20 @@
   color: white;
 }
 
-.time-wrapper.up {
+.tag-wrapper.up {
   top: -48px;
   background-color: #333;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.direction-l .time-wrapper {
+.direction-l .tag-wrapper {
   text-align: right;
   margin-right: 20px;
   right: 0px;
 
 }
 
-.direction-r .time-wrapper {
+.direction-r .tag-wrapper {
   text-align: left;
   margin-left: 20px;
   left: 0px;
@@ -273,21 +273,21 @@
 	pointer-events: none;
 }
 
-.time-wrapper {
+.tag-wrapper {
 	display: block;
 	position: relative;
 	margin: 4px 0 0 0;
 	z-index: 14;
 }
 
-.direction-l .time-wrapper {
+.direction-l .tag-wrapper {
   float: none;
   top: auto;
   text-align: center;
   margin-right: 0px;
 }
 
-.direction-r .time-wrapper {
+.direction-r .tag-wrapper {
   float: none;
   top: auto;
   text-align: center;
