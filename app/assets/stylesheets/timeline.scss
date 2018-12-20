@@ -180,7 +180,6 @@
 .time {
   display: inline-block;
   padding: 4px 6px;
-  // background: rgb(248,248,248);
 }
 
 .company {
@@ -200,10 +199,6 @@
   margin: 1em 0 0 0.75em;
 }
 
-.company-icon {
-  width: 18px;
-  height: 18px;
-}
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 575px) {
@@ -320,9 +315,9 @@
 
 @media screen and (min-width: 576px) {
 
-.direction-l .desc,
-.direction-r .desc {
-	margin: 1em 2em 0 2em;
-}
+  .direction-l .desc,
+  .direction-r .desc {
+    margin: 1em 2em 0 2em;
+  }
 
 }
