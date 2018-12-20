@@ -19,7 +19,7 @@
     %div.profile.col-10.col-sm-4.col-md-3
       = image_tag("carol.jpg", alt: "It's me", class: "profile-img")
   %div.content
-    %div.timeline-title Experience
+    %div.timeline-title#experience Experience
     %div.timeline-container
       %ul.timeline
         %li
@@ -80,3 +80,33 @@
               Contribute to the UI Library of Jobstreet,
               Assist in web development of SiVA Recruitment Center ,
               Involved in agile team and scrum meetings :p
+    %div.timeline-title#experience Education
+    %div.timeline-container
+      %ul.timeline
+        %li
+          .direction-r
+            .flag-wrapper
+              %span.flag Software Systems Development
+              %span.time-wrapper
+                %span.time 2013-2015
+              %a.time-wrapper.up{href: 'https://www.tarc.edu.my/'}
+                %span.company TAR UC
+                = image_tag("tarc.png", alt: "tarc", class: "company-icon")
+            .desc
+              .span Cumulative GPA (CGPA) 3.9178
+              .span Awarded a Book Prize on Feb 2016
+        %li
+          .direction-l
+            .flag-wrapper
+              %span.flag Information Systems Engineering
+              %span.time-wrapper
+                %span.time 2011-2013
+              %a.time-wrapper.up{href: 'https://www.tarc.edu.my/'}
+                %span.company TAR UC
+                = image_tag("tarc.png", alt: "tarc", class: "company-icon")
+            .desc
+              .span Cumulative GPA (CGPA) 3.968
+              .span Awarded a Book Prize on Sep 2013
+              .span President List Awards for 4 Semester out of 5
+
+
