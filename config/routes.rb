@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   root 'cover#index'
   get 'home', to: 'home#index'
   get 'about', to: 'about#index'
+  get 'apps', to: 'apps#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

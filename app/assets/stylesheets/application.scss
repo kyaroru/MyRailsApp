@@ -2,6 +2,12 @@
 /*
  * Base structure
  */
+
+$break-small: 337px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-x-large: 1200px;
+
  ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
@@ -29,6 +35,26 @@
     padding-top: 56px; //hacky code to compensate cutoff margin-top
   }
  }
+
+.inline-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.apps-icon {
+  width: 10rem;
+  height: 10rem;
+}
+
+.google-icon {
+  width: 7rem;
+  height: auto;
+}
+
+.appstore-icon {
+  width: 6rem;
+  height: auto;
+}
 
 /*
  * Globals
@@ -58,3 +84,4 @@ hr {
 @import "bubble.scss";
 @import "timeline.scss";
 @import "skill.scss";
+@import "apps.scss";
