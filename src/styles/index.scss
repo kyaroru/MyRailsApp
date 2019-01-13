@@ -1,0 +1,69 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+$break-small: 337px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-x-large: 1200px;
+
+ ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+ html,
+ body {
+  background-color: #333;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+ }
+ body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
+  .navbar {
+    z-index: 10; // to appear on top of content
+  }
+
+  .main {
+    overflow-y: scroll;
+    height: 100vh;
+    margin-top: -56px; //hacky code to compensate 100vh due to navbar height
+    padding-top: 56px; //hacky code to compensate cutoff margin-top
+  }
+ }
+
+.inline-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+hr {
+  border:none;
+  height: 5px;
+ 	width: 100%;
+	margin-top: 0;
+	border-bottom: 1px solid white;
+  // box-shadow: 0 20px 20px -20px  rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+}
+
+@import "styles/cover.scss";
+@import "styles/bear.scss";
+@import "styles/home.scss";
+@import "styles/bubble.scss";
+@import "styles/timeline.scss";
+@import "styles/skill.scss";
+@import "styles/apps.scss";
