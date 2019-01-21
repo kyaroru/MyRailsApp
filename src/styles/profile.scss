@@ -52,12 +52,110 @@
 }
 
 .profile {
+  .slide {
+    position: absolute;
+    width: 90%;
+    padding: 0 !important;
 
-  .profile-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .profile-img {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+
+  .slide:nth-of-type(1) {
+    animation:fade1 10s infinite;
+    -webkit-animation:fade1 10s infinite;
+    z-index: 5;
+  }
+  .slide:nth-of-type(2) {
+    animation:fade2 10s infinite;
+    -webkit-animation:fade2 10s infinite;
+    z-index: 4;
+  }
+  .slide:nth-of-type(3) {
+    animation:fade3 10s infinite;
+    -webkit-animation:fade3 10s infinite;
+    z-index: 3;
+  }
+  .slide:nth-of-type(4) {
+    animation:fade4 10s infinite;
+    -webkit-animation:fade4 10s infinite;
+    z-index: 2;
+  }
+
+  @keyframes fade1
+  {
+    0%   {opacity:1}
+    25% { opacity: 0}
+    50% { opacity: 0}
+    75% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    25% { opacity: 1}
+    50% { opacity: 0 }
+    75% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    25% { opacity: 0}
+    50% { opacity: 1}
+    75% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    25% { opacity: 0}
+    50% { opacity: 0}
+    75% { opacity: 1}
+    100% { opacity: 0}
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .profile {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .profile {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile {
+    padding-top: 20px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile {
+    padding-top: 30px;
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .profile {
+    padding-top: 30px;
+    height: 300px;
   }
 }
 

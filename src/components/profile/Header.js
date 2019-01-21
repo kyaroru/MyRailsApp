@@ -6,6 +6,9 @@ import github from 'images/social/github.png';
 import linkedin from 'images/social/linkedin.jpg';
 import skype from 'images/social/skype.jpg';
 import carol from 'images/carol.jpg';
+import carol1 from 'images/carol1.jpg';
+import carol2 from 'images/carol2.jpg';
+import carol3 from 'images/carol3.jpg';
 
 const social = [
   {
@@ -58,8 +61,11 @@ const ProfileHeader = () => (
         </a>
       </div>
     </div>
-    <div className='profile col-10 col-sm-7 col-md-3'>
-      <img src={carol} alt="It's me!" className="profile-img"/>
+    <div className='profile col-9 col-sm-7 col-md-3'>
+      <div className="slide"><img src={carol} alt="It's me!" className="profile-img"/></div>
+      <div className="slide"><img src={carol1} alt="It's me!" className="profile-img"/></div>
+      <div className="slide"><img src={carol2} alt="It's me!" className="profile-img"/></div>
+      <div className="slide"><img src={carol3} alt="It's me!" className="profile-img"/></div>
     </div>
   </div>
 );
