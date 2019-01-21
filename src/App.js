@@ -10,8 +10,8 @@ class App extends Component {
       <Router>
         <div className="app">
           <Route path="/" exact component={Cover} />
-          <Route path="/profile/" component={Profile} />
-          <Route path="/apps/" component={Apps} />
+          <Route path="/profile" component={Profile} />
+          <Route path="/apps" component={Apps} />
         </div>
       </Router>
     );
