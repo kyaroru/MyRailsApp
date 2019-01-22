@@ -16,7 +16,7 @@ const apps = [
     image: rndraw,
     label: 'RNDraw',
     googleUrl: 'https://play.google.com/store/apps/details?id=com.rndraw&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1',
-    appleUrl: null,
+    appleUrl: 'https://itunes.apple.com/us/app/rndraw/id1447536209?ls=1&mt=8',
   },
   {
     id: 'rntodoapp',
