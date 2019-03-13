@@ -1,13 +1,24 @@
 import surialabs from 'images/company/surialabs.png';
 import ifast from 'images/company/ifast.png';
 import jobstreet from 'images/company/jobstreet.png';
+import remark from 'images/company/remark.jpeg';
 
 const experience = [
+  {
+    id: 'remark-mobile',
+    direction: 'r',
+    title: 'Mobile App Developer',
+    date: '2019/03 - present',
+    company: 'ReMark',
+    image: remark,
+    url: 'https://remarkgroup.com/',
+    desc: 'Still new here :p Will Update soon ~'
+  },
   {
     id: 'suria-lead-se',
     direction: 'l',
     title: 'Lead Software Engineer',
-    date: '2018/11 - present',
+    date: '2018/11 - 2019-02',
     company: 'Suria Labs',
     image: surialabs,
     url: 'https://www.surialabs.com/',
