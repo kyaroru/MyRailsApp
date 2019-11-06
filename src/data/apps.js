@@ -3,8 +3,16 @@ import rndraw from 'images/apps/rndraw.png';
 import rntodoapp from 'images/apps/rntodoapp.png';
 import bearsweeper from 'images/apps/bearsweeper.png';
 import flags4fun from 'images/apps/flags4fun.png';
+import flowy from 'images/apps/flowy.png';
 
 const apps = [
+  {
+    id: 'flowy',
+    image: flowy,
+    label: 'Flowy: Spending Tracker',
+    googleUrl: 'https://play.google.com/store/apps/details?id=com.kyaroru.flowy',
+    appleUrl: 'https://apps.apple.com/us/app/flowy-spending-tracker/id1486077846?ls=1',
+  },
   {
     id: 'flags4fun',
     image: flags4fun,
