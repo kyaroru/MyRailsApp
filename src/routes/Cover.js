@@ -20,25 +20,25 @@ const Cover = () => (
     <div className="inner cover clearfix">
       <div className="bear-cub">
         <div className="body">
-          <div className="leg leg-left"></div>
-          <div className="leg leg-right"></div>
-          <div className="leg leg-left-behind"></div>
-          <div className="leg leg-right-behind"></div>
+          <div className="leg leg-left" />
+          <div className="leg leg-right" />
+          <div className="leg leg-left-behind" />
+          <div className="leg leg-right-behind" />
         </div>
         <div className="head">
-          <div className="nose"></div>
-          <div className="mouth"></div>
-          <div className="eye eye-left"></div>
-          <div className="eye eye-right"></div>
-          <div className="ear ear-left"></div>
-          <div className="ear ear-right"></div>
+          <div className="nose" />
+          <div className="mouth" />
+          <div className="eye eye-left" />
+          <div className="eye eye-right" />
+          <div className="ear ear-left" />
+          <div className="ear ear-right" />
         </div>
       </div>
     </div>
     <footer className="fixed-bottom">
       <p className="text-white">
         <img src={bear} alt="bear" className="inline-icon" />
-        {` Bear credits to:`}
+         Bear credits to:
         <a href="https://codepen.io/dark_mefody/pen/Pppaaa">Nikita Dubko</a>
       </p>
     </footer>

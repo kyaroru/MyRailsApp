@@ -9,21 +9,21 @@ const left = [
     image: reactnative,
     label: 'React Native',
     progress: 'ninety',
-    url: 'https://facebook.github.io/react-native/'
+    url: 'https://facebook.github.io/react-native/',
   },
   {
     id: 'rails',
     image: rails,
     label: 'Ruby on Rails',
     progress: 'thirty',
-    url: 'https://rubyonrails.org/'
+    url: 'https://rubyonrails.org/',
   },
   {
     id: 'html',
     image: null,
     label: 'HTML',
     progress: 'hundred',
-    url: 'https://www.w3schools.com/html/'
+    url: 'https://www.w3schools.com/html/',
   },
 ];
 
@@ -33,21 +33,21 @@ const right = [
     image: react,
     label: 'React JS',
     progress: 'eighty',
-    url: 'https://reactjs.org/'
+    url: 'https://reactjs.org/',
   },
   {
     id: 'haml',
     image: haml,
     label: 'HAML',
     progress: 'fifty',
-    url: 'http://haml.info/'
+    url: 'http://haml.info/',
   },
   {
     id: 'css3',
     image: null,
     label: 'CSS3',
     progress: 'hundred',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3'
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
   },
 ];
 

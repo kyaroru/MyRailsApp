@@ -38,34 +38,34 @@ const social = [
   },
 ];
 const ProfileHeader = () => (
-  <div className='header row justify-content-center'>
-    <div className='col-11 col-sm-10 col-md-9'>
+  <div className="header row justify-content-center">
+    <div className="col-11 col-sm-10 col-md-9">
       <h1>Chiew Carol</h1>
       <span>I code for a living & brought my bear </span>
-      <img src={bear} alt="bear" className="inline-icon"/>
+      <img src={bear} alt="bear" className="inline-icon" />
       <span> to travel the world</span>
       <br />
       <span>have the undefeated spirit when comes to problem solving</span>
       <br />
       <span>and also super power in debugging :p</span>
-      <div className='social row justify-content-center'>
+      <div className="social row justify-content-center">
         {social.map(item => (
-          <a className='social-link' href={item.url} key={item.id}>
-            <img src={item.image} alt={item.id} className="social-icon"/>
+          <a className="social-link" href={item.url} key={item.id}>
+            <img src={item.image} alt={item.id} className="social-icon" />
           </a>
         ))}
       </div>
-      <div className='email'>
+      <div className="email">
         <a href="mailto:kyaroru@outlook.com">
           <h5>kyaroru@outlook.com</h5>
         </a>
       </div>
     </div>
-    <div className='profile col-9 col-sm-7 col-md-3'>
-      <div className="slide"><img src={carol} alt="It's me!" className="profile-img"/></div>
-      <div className="slide"><img src={carol1} alt="It's me!" className="profile-img"/></div>
-      <div className="slide"><img src={carol2} alt="It's me!" className="profile-img"/></div>
-      <div className="slide"><img src={carol3} alt="It's me!" className="profile-img"/></div>
+    <div className="profile col-9 col-sm-7 col-md-3">
+      <div className="slide"><img src={carol} alt="It's me!" className="profile-img" /></div>
+      <div className="slide"><img src={carol1} alt="It's me!" className="profile-img" /></div>
+      <div className="slide"><img src={carol2} alt="It's me!" className="profile-img" /></div>
+      <div className="slide"><img src={carol3} alt="It's me!" className="profile-img" /></div>
     </div>
   </div>
 );

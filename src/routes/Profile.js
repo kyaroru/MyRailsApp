@@ -8,7 +8,7 @@ import Footer from 'components/Footer';
 const Profile = () => (
   <>
     <NavBar />
-    <div className='container main'>
+    <div className="container main">
       <hr />
       <ProfileHeader />
       <hr />

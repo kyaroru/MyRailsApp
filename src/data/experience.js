@@ -12,7 +12,7 @@ const experience = [
     company: 'ReMark',
     image: remark,
     url: 'https://remarkgroup.com/',
-    desc: 'Still new here :p Will Update soon ~'
+    desc: 'Still new here :p Will Update soon ~',
   },
   {
     id: 'suria-lead-se',
@@ -22,7 +22,7 @@ const experience = [
     company: 'Suria Labs',
     image: surialabs,
     url: 'https://www.surialabs.com/',
-    desc: 'Responsible for keeping the client happy & satisfied, Lead & guide the junior developer, Perform Code Reviews for other members of the team, Come up with my own set of boilerplate to kickstart new project in the company :p'
+    desc: 'Responsible for keeping the client happy & satisfied, Lead & guide the junior developer, Perform Code Reviews for other members of the team, Come up with my own set of boilerplate to kickstart new project in the company :p',
   },
   {
     id: 'suria-se',

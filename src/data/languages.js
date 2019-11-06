@@ -19,7 +19,7 @@ const languages = [
     label: 'Bahasa Malaysia',
     progress: 'eighty',
     url: null,
-  }
+  },
 ];
 
 export default languages;
