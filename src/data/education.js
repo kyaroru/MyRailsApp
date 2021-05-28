@@ -29,7 +29,9 @@ const education = [
       <>
         <div className="span">Cumulative GPA (CGPA) 3.968</div>
         <div className="span">Awarded a Book Prize on Sep 2013</div>
-        <div className="span">President List Awards for 4 Semester out of 5</div>
+        <div className="span">
+          President List Awards for 4 Semester out of 5
+        </div>
       </>
     ),
   },

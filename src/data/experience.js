@@ -5,14 +5,24 @@ import remark from 'images/company/remark.jpeg';
 
 const experience = [
   {
-    id: 'remark-mobile',
-    direction: 'r',
-    title: 'Mobile App Developer',
-    date: '2019-03 - present',
+    id: 'remark-senior-mobile',
+    direction: 'l',
+    title: 'Senior Mobile App Developer',
+    date: '2021-05 - present',
     company: 'ReMark',
     image: remark,
     url: 'https://remarkgroup.com/',
-    desc: 'Still new here :p Will Update soon ~',
+    desc: 'In charge of all app related matters including development, testing, app submission, maintenance, documentation & problem solving.',
+  },
+  {
+    id: 'remark-mobile',
+    direction: 'r',
+    title: 'Mobile App Developer',
+    date: '2019-03 - 2021-04',
+    company: 'ReMark',
+    image: remark,
+    url: 'https://remarkgroup.com/',
+    desc: 'Create new client apps based on our whitelabel app, enhance and refactoring ~ Maintain consistency for all the apps',
   },
   {
     id: 'suria-lead-se',
@@ -32,7 +42,7 @@ const experience = [
     company: 'Suria Labs',
     image: surialabs,
     url: 'https://www.surialabs.com/',
-    desc: 'Optimise & improve existing code base (for project that exist before I join), Setup new React Native/React project from scratch, Automate app submission process to the Google Play/App Store, Keep track of app releases\' changelog, Assist in onboarding of new staff! :p',
+    desc: "Optimise & improve existing code base (for project that exist before I join), Setup new React Native/React project from scratch, Automate app submission process to the Google Play/App Store, Keep track of app releases' changelog, Assist in onboarding of new staff! :p",
   },
   {
     id: 'ifast',

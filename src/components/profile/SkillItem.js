@@ -3,7 +3,9 @@ import React from 'react';
 const SkillItem = ({ data }) => (
   <a href={data.url}>
     <label>{data.label}</label>
-    {data.image && <img src={data.image} alt={data.id} className="inline-icon" />}
+    {data.image && (
+      <img src={data.image} alt={data.id} className="inline-icon skill" />
+    )}
     <li>
       <span className={`progress progressbar ${data.progress}`} />
     </li>
