@@ -4,6 +4,10 @@
   .store {
     flex-direction: row;
     justify-content: center;
+
+    img {
+      margin: 3px 3px;
+    }
   }
 
   .apps-icon {
@@ -12,24 +16,22 @@
   }
 
   .google-icon {
-    width: 7rem;
-    height: auto;
+  }
+
+  .huawei-icon {
+    height: 36px;
   }
 
   .appstore-icon {
-    width: 6rem;
-    height: auto;
   }
 
   .macstore-icon {
-    width: 6.5rem;
-    height: auto;
+    height: 36px;
     margin: 0 3px;
   }
 
   .microsoft-icon {
-    width: 6rem;
-    height: auto;
+    height: 36px;
     margin: 0 3px;
   }
 }

@@ -22,6 +22,7 @@ const apps = [
     googleUrl:
       'https://play.google.com/store/apps/details?id=com.kyaroru.flags4fun',
     appleUrl: 'https://apps.apple.com/us/app/flags-4-fun/id1477859310?ls=1',
+    huaweiUrl: 'https://appgallery.huawei.com/#/app/C104364693',
   },
   {
     id: 'reactblogger',
