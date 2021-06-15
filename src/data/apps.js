@@ -14,6 +14,7 @@ const apps = [
       'https://play.google.com/store/apps/details?id=com.kyaroru.flowy',
     appleUrl:
       'https://apps.apple.com/us/app/flowy-spending-tracker/id1486077846?ls=1',
+    huaweiUrl: 'https://appgallery.huawei.com/#/app/C104362369',
   },
   {
     id: 'flags4fun',
